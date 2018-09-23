@@ -27,34 +27,36 @@ This schematic will:
   - Make Roboto the default font of your app
 - Install and import `hammerjs` for [touch gesture support](./getting-started#step-5-gesture-support) in your project
 
-## Generator Schematics
+### Generator Schematics
 In addition to the install schematic, Angular Material has three schematics it comes packaged with:
 
 - Navigation
 - Dashboard
 - Table
+- Address Form
+- Tree
 
-### Navigation Schematic
+#### Navigation Schematic
 The navigation schematic will create a new component that includes
 a toolbar with the app name and a responsive side nav based on Material
 breakpoints.
 
 ```
-ng generate @angular/material:material-nav --name <component-name>
+ng generate @angular/material:nav --name <component-name>
 ```
 
-### Dashboard Schematic
+#### Dashboard Schematic
 The dashboard schematic will create a new component that contains
 a dynamic grid list of cards.
 
 ```
-ng generate @angular/material:material-dashboard --name <component-name>
+ng generate @angular/material:dashboard --name <component-name>
 ```
 
-### Table Schematic
+#### Table Schematic
 The table schematic will create a new table component pre-configured
 with a datasource for sorting and pagination.
 
 ```
-ng generate @angular/material:material-table --name <component-name>
+ng generate @angular/material:table --name <component-name>
 ```
