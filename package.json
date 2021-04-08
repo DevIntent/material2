@@ -90,7 +90,7 @@
     "@bazel/protractor": "3.2.1",
     "@bazel/rollup": "3.2.1",
     "@bazel/terser": "3.2.2",
-    "@bazel/typescript": "3.2.1",
+    "@bazel/typescript": "3.3.0",
     "@firebase/app-types": "^0.6.1",
     "@material/animation": "11.0.0-canary.67d780c79.0",
     "@material/auto-init": "11.0.0-canary.67d780c79.0",
